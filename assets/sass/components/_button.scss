@@ -1,0 +1,12 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+button {
+    padding: 10px 20px;
+    border: 1px solid $smoky-black;
+
+    &:hover {
+        background-color: $smoky-black;
+        color: $white;
+    }
+}
